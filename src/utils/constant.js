@@ -59,7 +59,7 @@ export const prevProjects = [
     id: 2,
     img: hernalytic,
     link: "https://hernalytics-test.netlify.app/",
-    github: "https://github.com/tayor99/hernalytics",
+    github: "https://github.com/92isaac/hernalytics",
   },
   {
     id: 3,
