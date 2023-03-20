@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { prevProjects } from "../utils/constant";
 import { BiLinkExternal, BiGitBranch } from "react-icons/bi";
+import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -13,9 +15,12 @@ const Projects = () => {
           <div className="development-card">
             {prevProjects.map((project) => {
               return (
-                <div className="card">
+                <div className="card" key={project.img}>
                   <div className="img-container">
                     <img src={project.img} alt={project.link} />
+                    <Link to={`/${project.id}`} className="link">
+                      <FaSearch />
+                    </Link>
                   </div>
                   <div className="links-btn">
                     <a
@@ -97,12 +102,43 @@ const TopWrapper = styled.div`
         .img-container {
           width: 350px;
           height: 400px;
+          position: relative;
 
           img {
             width: 100%;
             height: 100%;
             border-radius: 20px;
+            transition: var(--transition);
+            z-index:-1;
+
           }
+          .link {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--clr-primary-5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            transition: var(--transition);
+            opacity: 0;
+            cursor: pointer;
+            svg {
+              font-size: 1.25rem;
+              color: var(--clr-white);
+              z-index:999;
+            }
+          }
+        }
+        .img-container:hover img {
+          opacity: 0.5;
+        }
+        .img-container:hover .link {
+          opacity: 1;
         }
         .links-btn {
           display: flex;

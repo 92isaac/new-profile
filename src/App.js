@@ -8,6 +8,7 @@ import { useState } from "react";
 import RingLoader from "react-spinners/RingLoader";
 import styled from "styled-components";
 import { useEffect } from "react";
+import ProjectMore from "./pages/ProjectMore";
 
 function App() {
   let [loading, setLoading] = useState(true);
@@ -31,6 +32,7 @@ function App() {
               <Route index element={<Home />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/services" element={<ServicePage />} />
+              <Route path='/:id' element={<ProjectMore />}/>
             </Route>
           </Routes>
         </div>

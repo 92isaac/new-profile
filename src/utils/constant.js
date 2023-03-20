@@ -48,35 +48,59 @@ export const prevProjects = [
     img: movies,
     link: "https://92isaac.github.io/Movie-app/",
     github: "https://github.com/92isaac/Movie-app/",
+    productDescription:[
+      '',
+      '',
+    ],
   },
   {
     id: 1,
     img: ecommerce,
     link: "https://bright-gumdrop.netlify.app/",
     github: "https://github.com/92isaac/",
+    productDescription:[
+      '',
+      '',
+    ],
   },
   {
     id: 2,
     img: hernalytic,
     link: "https://hernalytics-test.netlify.app/",
     github: "https://github.com/92isaac/hernalytics",
+    productDescription:[
+      '',
+      '',
+    ],
   },
   {
     id: 3,
     img: lasop,
     link: "https://lasop.net/",
     github: "https://github.com/92isaac",
+    productDescription:[
+      '',
+      '',
+    ],
   },
   {
     id: 4,
     img: url,
     link: "https://url-shortner-sooty.vercel.app/",
     github: "https://github.com/92isaac/url-shortner",
+    productDescription:[
+      '',
+      '',
+    ],
   },
   {
     id: 5,
     img: home,
     link: "https://92isaac.github.io/room-homepage-master/",
     github: "https://github.com/92isaac/room-homepage-master",
+    productDescription:[
+      '',
+      '',
+    ],
   },
 ];

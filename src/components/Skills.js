@@ -13,7 +13,7 @@ const Skills = () => {
             <h1>Me</h1>
           </div>
 
-          <a href="/Adetayo.pdf" className="btn">
+          <a href="/Isaac Oluwatobi Sangodare 2023..pdf" className="btn">
             View CV
           </a>
         </div>
