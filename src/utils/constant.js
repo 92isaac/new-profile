@@ -70,7 +70,7 @@ export const prevProjects = [
   {
     id: 4,
     img: url,
-    link: "https://url-shortner-mopg.vercel.app/",
+    link: "https://url-shortner-sooty.vercel.app/",
     github: "https://github.com/92isaac/url-shortner",
   },
   {
