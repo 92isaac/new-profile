@@ -49,8 +49,9 @@ export const prevProjects = [
     link: "https://92isaac.github.io/Movie-app/",
     github: "https://github.com/92isaac/Movie-app/",
     productDescription:[
-      '',
-      '',
+      'Built a dynamic  platform  that  delivers  an  immersive  viewing  experience.  Built  using  HTML,  CSS, Bootstrap,  JavaScript  and  Axios,  the  website  integrates  with  the  TMDB  API  to  provide  users  with up-to-date information on the latest movies and TV shows.',
+      'The  use  of  Axios ensures  efficient  communication  with  the  API,  while  Bootstrap provides  a responsive design that adapts to different screen sizes. ',
+      'With its sleek and user-friendly interface, the website offers a smooth navigation and an engaging user  experience.  This  project  showcases  our  skills  in  web  development  and  API  integration, delivering a high-quality movies website that meets the demands of the modern user.'
     ],
   },
   {
@@ -59,8 +60,9 @@ export const prevProjects = [
     link: "https://bright-gumdrop.netlify.app/",
     github: "https://github.com/92isaac/",
     productDescription:[
-      '',
-      '',
+      'A dynamic and intuitive platform, designed to deliver an exceptional shopping experience.',
+      'Utilizing  useReducer  and  useContext  for  optimized  state  management,  axios  for  back-end communication, and react-router-dom for routing, the website offers a seamless navigation. ',
+      'The visually appealing interface, built with tailwind CSS and react-icons, enhances user engagement. Lazy loading optimizes page loading speed, ensuring a fast and smooth user experience.'
     ],
   },
   {
@@ -99,8 +101,9 @@ export const prevProjects = [
     link: "https://92isaac.github.io/room-homepage-master/",
     github: "https://github.com/92isaac/room-homepage-master",
     productDescription:[
-      '',
-      '',
+      'Developed a responsive website using HTML, CSS, and JavaScript to showcase a hero section with an image carousel and text content that dynamically changes based on the selected image.',
+      'Utilized CSS grid and flexbox to create a responsive layout that adjusts to different screen sizes.',
+      "Implemented JavaScript functions to enable users to navigate through the image carousel using left and right arrows, and a toggle button to show or hide a navigation menu.",
     ],
   },
 ];

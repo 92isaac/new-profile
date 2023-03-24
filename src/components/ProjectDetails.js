@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 
-const ProductDetails = ({ img, productDescription, githubLink, productUrl }) => {
+const ProductDetails = ({ img, productDescription, github, link }) => {
 
   const navigate = useNavigate()
 
@@ -19,13 +19,13 @@ const ProductDetails = ({ img, productDescription, githubLink, productUrl }) => 
       </ProductSide>
     </ProductContainer>
       <ButtonContainer>
-        <Button href={githubLink} target="_blank" rel="noopener noreferrer">
+        <Button href={github} target="_blank" rel="noopener noreferrer">
           GitHub Link
         </Button>
         <Button onClick={()=>navigate(-1)} rel="noopener noreferrer">
           Go back
         </Button>
-        <Button href={productUrl} target="_blank" rel="noopener noreferrer">
+        <Button href={link} target="_blank" rel="noopener noreferrer">
           Product URL
         </Button>
       </ButtonContainer>
@@ -66,12 +66,23 @@ object-fit: cover;
 const ProductDescription = styled.p`
   margin: 1rem;
   text-align: center;
+  ul li{
+    text-align:justify;
+    font-size:15px;
+    font-weight:bold;
+    font-style:italic;
+    margin-bottom:10px;
+    font-family: var(--poppins-font);
+
+  }
 `;
 
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   margin: 1rem;
+
+ 
 `;
 
 const Button = styled.a`
@@ -87,4 +98,11 @@ const Button = styled.a`
   &:hover {
     background-color: #4b5563;
   }
+
+  @media (max-width: 600px) {
+    a{
+      display: block;
+    }
+  }
 `;
+
