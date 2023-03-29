@@ -23,7 +23,7 @@ export const links = [
   },
   {
     id: 4,
-    path: "/Isaac Oluwatobi Sangodare 2023..pdf",
+    path: "/Sangodare Isaac Oluwatobi Resume.pdf",
     text: "Resume",
     anchor: true,
   },
