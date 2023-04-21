@@ -36,6 +36,7 @@ export const tools = [
   { language: "JAVASCRIPT", completed: "90" },
   { language: "TYPESCRIPT", completed: "85" },
   { language: "REACT", completed: "85" },
+  { language: "NEXTJS", completed: "60" },
   { language: "JQUERY", completed: "80" },
   { language: "PYTHON", completed: "80" },
   { language: "DJANGO", completed: "85" },

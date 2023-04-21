@@ -26,7 +26,7 @@ const Intro = () => {
         <h4>Hello,</h4>
         <h1>I'm Isaac</h1>
         <p>
-          A freelance <span>web developer </span> and <span> web designer</span>
+          A freelance <span>Frontend Developer </span> and a <span> Tutor</span>
         </p>
       </motion.div>
     </Wrapper>

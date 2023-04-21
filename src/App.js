@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import ServicePage from "./pages/ServicePage";
-
 import { useState } from "react";
 import RingLoader from "react-spinners/RingLoader";
 import styled from "styled-components";
