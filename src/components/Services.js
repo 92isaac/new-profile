@@ -41,6 +41,15 @@ const Services = () => {
                 how your web app’s rank can be improved
               </p>
             </div>
+            <div
+              className="mini-cards"
+              // style={{ background: " #DC9402", color: "#000" }}
+            >
+              <h1 className="card-header">I teach</h1>
+              <p className="card-body">
+                I also offer support, I teach, and a proven track record of success in tutoring and helping people transition into the tech space.
+              </p>
+            </div>
           </div>
         </div>
         <div className="service-info">

@@ -22,13 +22,7 @@ const Skills = () => {
         <section>
           <h1>About Me</h1>
           <p className="skill-text">
-            A creative, technical and excellence-driven frontend web developer
-            adept in all stages of advanced web development with proven
-            expertise in design, installation, testing and maintenance of web
-            systems. Proficient in an assortment of technologies including HTML,
-            CSS, JavaScript, and React for building. A fast learner with strong
-            time management skills and ability to effectively self-manage during
-            independent projects, as well as collaborate in a team setting
+          Experienced Frontend Engineer with expertise in JavaScript, React, Redux, Next.js, Python, Django, Django Rest Framework, and other technologies. Passionate about creating engaging web experiences, optimizing performance, and ensuring cross-browser compatibility. Proven track record of delivering high-quality, scalable, and maintainable code. Adaptable in fast-paced environments and dedicated to continuous learning. Effective collaborator with a focus on exceptional user experiences.
           </p>
           <div className="skill-bar">
             <p className="skillBar-header">Skills</p>
