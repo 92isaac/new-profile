@@ -1,11 +1,11 @@
 import movies from "../assets/fresh.png";
-import hernalytic from "../assets/hernalytic.png";
+import hernalytic from "../assets/hernalytics.png";
 import ecommerce from "../assets/e-commerce.png";
 import lasop from "../assets/lasop.png";
 import home from "../assets/home.png";
 import url from "../assets/url.png";
-import tokosmile from '../assets/tokosmile3.png'
-import geotravels from '../assets/Geotravel and 1 more page - Personal - Microsoft​ Edge 5_23_2023 4_11_02 AM.png'
+import tokosmile from '../assets/tokosmile.vercel.app_ (3).png'
+import geotravels from '../assets/geotravels.png'
 
 export const links = [
   {
